@@ -23,4 +23,7 @@ public class ClassA {
 	private int y;
 	private int z;
 
+public int setB(int){}
+
+public int getB(int){}
 }
