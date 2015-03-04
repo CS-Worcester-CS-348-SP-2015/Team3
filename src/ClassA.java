@@ -23,13 +23,19 @@ public class ClassA {
 	private int y;
 	private int z;
 	
+	public void setB(int x){
+		b = x;
+		}
+
+	public int getB(){
+		return b;
+		}
+	
 	
 	
 	public String toString(){
 		return ( a + " " + b + " " + y + " " + z);
 	}
 
-public int setB(int){}
 
-public int getB(int){}
 }
