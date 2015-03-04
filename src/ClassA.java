@@ -22,6 +22,7 @@ public class ClassA {
 	private int b;
 	private int y;
 	private int z;
+<<<<<<< HEAD
 	private int c; 
 
 	public int setC(int){
@@ -31,3 +32,27 @@ public class ClassA {
 	public int getC(){
 		return c;
 	}	
+=======
+	
+	
+	
+	public String toString(){
+		return ( a + " " + b + " " + y + " " + z);
+	}
+
+
+	private int x;
+
+	int setX(int){
+		x = int;
+	}
+
+	int getX(){
+		return x;
+	}
+
+public int setB(int){}
+
+public int getB(int){}
+}
+>>>>>>> 6584ce56c14acd71685f246b8e73c631daf23f1a
