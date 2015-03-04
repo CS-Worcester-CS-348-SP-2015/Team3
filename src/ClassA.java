@@ -40,7 +40,15 @@ public class ClassA {
 		return x;
 	}
 
-public int setB(int){}
+	int setY(int){
+		y = int;
+	}
 
-public int getB(int){}
+	int getY(){
+		return y;
+	}
+
+	public int setB(int){}
+
+	public int getB(int){}
 }
