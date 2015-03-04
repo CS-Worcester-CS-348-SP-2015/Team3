@@ -29,4 +29,7 @@ public class ClassA {
 		return ( a + " " + b + " " + y + " " + z);
 	}
 
+public int setB(int){}
+
+public int getB(int){}
 }
