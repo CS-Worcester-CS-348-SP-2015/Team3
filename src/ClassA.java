@@ -20,9 +20,19 @@ public class ClassA {
 	
 	private int a;
 	private int b;
+	private int c;
 	private int x;
 	private int y;
 	private int z;
+	 
+
+	public int setC(int){
+		c = int;
+	}
+
+	public int getC(){
+		return c;
+	}
 	
 	public void setB(int x){
 		b = x;
@@ -44,4 +54,12 @@ public class ClassA {
 		return ( a + " " + b + " " + y + " " + z);
 	}
 
+	int setY(int){
+		y = int;
+	}
+
+	int getY(){
+		return y;
+	}
 }
+
