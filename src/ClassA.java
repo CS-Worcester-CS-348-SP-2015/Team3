@@ -22,6 +22,12 @@ public class ClassA {
 	private int b;
 	private int y;
 	private int z;
+	
+	
+	
+	public String toString(){
+		return ( a + " " + b + " " + y + " " + z);
+	}
 
 
 	private int x;
