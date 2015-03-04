@@ -1,0 +1,9 @@
+int c;
+
+int setC(int){
+	int = c;
+}
+
+int getC(){
+	return c;
+}
