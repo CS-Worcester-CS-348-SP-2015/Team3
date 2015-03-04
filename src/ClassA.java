@@ -22,5 +22,12 @@ public class ClassA {
 	private int b;
 	private int y;
 	private int z;
+	private int c; 
 
-}
+	public int setC(int){
+		c = int;
+	}
+
+	public int getC(){
+		return c;
+	}	
