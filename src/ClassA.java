@@ -51,8 +51,16 @@ public class ClassA {
 		return x;
 	}
 
-public int setB(int){}
+	int setY(int){
+		y = int;
+	}
 
-public int getB(int){}
+	int getY(){
+		return y;
+	}
+
+	public int setB(int){}
+
+	public int getB(int){}
 }
 >>>>>>> 6584ce56c14acd71685f246b8e73c631daf23f1a
