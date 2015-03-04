@@ -31,3 +31,12 @@ public class ClassA {
 	public int getC(){
 		return c;
 	}	
+
+	public int setZ(int){
+		z = int;
+	}
+	
+	public int getZ(){
+		return z;
+	}
+
