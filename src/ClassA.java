@@ -24,7 +24,7 @@ public class ClassA {
 	private int z;
 
 
-	int x;
+	private int x;
 
 	int setX(int){
 		x = int;
