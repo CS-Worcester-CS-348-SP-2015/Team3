@@ -20,10 +20,11 @@ public class ClassA {
 	
 	private int a;
 	private int b;
+	private int c;
+	private int x;
 	private int y;
 	private int z;
-<<<<<<< HEAD
-	private int c; 
+	 
 
 	public int setC(int){
 		c = int;
@@ -31,24 +32,26 @@ public class ClassA {
 
 	public int getC(){
 		return c;
-	}	
-=======
-	
-	
-	
-	public String toString(){
-		return ( a + " " + b + " " + y + " " + z);
 	}
+	
+	public void setB(int x){
+		b = x;
+		}
 
-
-	private int x;
-
+	public int getB(){
+		return b;
+		}
+	
 	int setX(int){
 		x = int;
 	}
 
 	int getX(){
 		return x;
+	}
+	
+	public String toString(){
+		return ( a + " " + b + " " + y + " " + z);
 	}
 
 	int setY(int){
@@ -58,9 +61,5 @@ public class ClassA {
 	int getY(){
 		return y;
 	}
-
-	public int setB(int){}
-
-	public int getB(int){}
 }
->>>>>>> 6584ce56c14acd71685f246b8e73c631daf23f1a
+
