@@ -20,6 +20,7 @@ public class ClassA {
 	
 	private int a;
 	private int b;
+	private int x;
 	private int y;
 	private int z;
 	
@@ -31,11 +32,16 @@ public class ClassA {
 		return b;
 		}
 	
-	
+	int setX(int){
+		x = int;
+	}
+
+	int getX(){
+		return x;
+	}
 	
 	public String toString(){
 		return ( a + " " + b + " " + y + " " + z);
 	}
-
 
 }
