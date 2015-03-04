@@ -59,6 +59,14 @@ public class ClassA {
 		return y;
 	}
 
+	int setA(int){
+		a = int;
+	}
+
+	int getA(){
+		return a;
+	}
+
 	public int setB(int){}
 
 	public int getB(int){}
