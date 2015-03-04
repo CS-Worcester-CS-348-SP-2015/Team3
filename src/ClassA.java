@@ -23,6 +23,17 @@ public class ClassA {
 	private int y;
 	private int z;
 
+
+	private int x;
+
+	int setX(int){
+		x = int;
+	}
+
+	int getX(){
+		return x;
+	}
+
 public int setB(int){}
 
 public int getB(int){}
